@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version 2.5.1
+Rails version 5.2.4, >= 5.2.4.1
 
-Things you may want to cover:
+Install
+git clone git@github.com/clelantoson/doctolib.git cd doctolib bundle install rails db:reset rails db:migrate rails db:seed rails c
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run (with gem 'table_print')
+tp Doctor.all tp Patient.all tp Appointment.all tp City.all ...
